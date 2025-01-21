@@ -1,0 +1,13 @@
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles */
+
+/* nav styles */
+.nav {
+    display: flex;
+}
