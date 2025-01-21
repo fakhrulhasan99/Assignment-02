@@ -31,9 +31,6 @@
 .logo-pic {
     height: 62px;
 }
-.link-1 {
-
-}
 .home-1 {
     color: orange;
     font-weight: bold;
@@ -71,4 +68,41 @@
     justify-content: space-around;
     align-items: center;
     margin: 20px 140px;
+}
+.link-1 {
+    display: flex;
+    gap: 1.25rem;
+}
+.menu-toggle {
+    display: none;
+    font-size: 1.25rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .link-1, .btn-pri, .logo-des {
+        display: none; /* Hide the links initially */
+        flex-direction: column;
+        
+    }
+    #nav-section {
+        border: 1px solid orange;
+    }
+    .navbar {
+        text-align: right;
+        margin: .75rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid orange; */
+    }
+    .menu-toggle {
+        display: block;
+        height: 30px;
+        width: 30px;
+    }
+    .btn-pri {
+        display: none;
+    }
 }
