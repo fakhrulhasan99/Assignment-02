@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .quicksand {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -6,8 +11,64 @@
   font-style: normal;
 }
 /* shared styles */
+.display-flex {
+    display: flex;
+}
+.black {
+    color: black;
+}
+.t-dec {
+    text-decoration: none;
+}
 
 /* nav styles */
-.nav {
-    display: flex;
+
+.logo-des {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.logo-pic {
+    height: 62px;
+}
+.link-1 {
+
+}
+.home-1 {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-right: 1rem;
+}
+.about-1 {
+    color: skyblue;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 0rem 1rem;
+}
+.facilities-1 {
+    color: #05D4DF;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 0rem 1rem;
+}
+.admission-1 {
+    color: #5D58EF;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+}
+.btn-1 {
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: orange;
+    padding: .625rem 3.75rem;
+    border-radius: 12px;
+}
+.navbar {
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 140px;
 }
