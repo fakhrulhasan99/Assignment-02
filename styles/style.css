@@ -65,9 +65,9 @@
     border-radius: 12px;
 }
 .navbar {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 20px 140px;
+    padding: 20px 140px;
 }
 .link-1 {
     display: flex;
@@ -80,10 +80,33 @@
     border: none;
     cursor: pointer;
 }
+.banner {
+    margin: 0px 140px;
+}
+.banner-des {
+    padding: 7.5rem 3rem 7.5rem 0rem;
+}
+.ban-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.ban-des {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 1.5rem 0rem;
+}
+.ban-btn {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: black;
+    padding: .6rem 3rem;
+    border-radius: 12px;
+}
 
 @media screen and (max-width: 768px) {
     .link-1, .btn-pri, .logo-des {
-        display: none; /* Hide the links initially */
+        display: none;
         flex-direction: column;
         
     }
@@ -95,7 +118,7 @@
         margin: .75rem 1rem;
         display: flex;
         justify-content: space-between;
-        /* border: 1px solid orange; */
+        padding: 0px;
     }
     .menu-toggle {
         display: block;
