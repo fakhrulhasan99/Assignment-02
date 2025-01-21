@@ -106,10 +106,67 @@
     border-radius: 12px;
 }
 /* curriculum styles */
-.curriculum {
+.curriculums {
+    text-align: center;
     padding: 3.75rem 8.75rem;
+}
+.curriculum-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000000;
+}
+.curriculum {
+    padding: 5rem 0rem;
     display: flex;
     justify-content: space-between;
+    gap: 2.75rem;
+}
+.box {
+    text-align: center;
+    padding: 3.75rem 2.5rem 3.5rem 2.5rem;
+    border-radius: 19px;
+}
+.pic-b {
+    width: 9rem;
+    height: 9rem;
+}
+.title-b {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #202020;
+    padding: 2rem 0rem;
+}
+.des-b {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+.more-b {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+.bg-gr-1 {
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+    border: 1px solid #DEF5FF;
+}
+.bg-gr-2 {
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+    border: 1px solid #FFF4DC;
+}
+.bg-gr-3 {
+    background: linear-gradient(#F2E8FF, #FFFFFF);
+    border: 1px solid #F2E8FF;
+}
+.btn-2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: orange;
+    padding: 1rem 1.35rem;
+    border: none;
+    border-radius: 30px;
+    margin: .25rem;
 }
 
 @media screen and (max-width: 768px) {
