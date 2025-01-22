@@ -219,4 +219,33 @@
         width: 21rem;
         padding: 1.25rem 0rem;
     }
+    .curriculums {
+        padding: 2.5rem 1rem 1.23rem;
+    }
+    .curriculum-title {
+        font-size: 1.75rem;
+    }
+    .curriculum {
+        flex-direction: column;
+        padding: 1.25rem 0rem;
+        gap: .75rem;
+    }
+    .box {
+        max-height: 21rem;
+    }
+    .pic-b {
+        height: 6rem;
+        width: 6rem;
+    }
+    .title-b {
+        font-size: 1rem;
+        padding: 1.5rem 0rem;
+    }
+    .more-b, .des-b {
+        font-size: .625rem;
+    }
+    .btn-sec {
+        display: none;
+    }
+
 }
