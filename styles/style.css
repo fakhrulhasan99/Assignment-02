@@ -168,6 +168,87 @@
     border-radius: 30px;
     margin: .25rem;
 }
+/* storyie container style */
+.stories {
+    text-align: center;
+    padding: 3.75rem 8.75rem;
+    background: linear-gradient(rgba(254, 163, 1, 0), rgba(254, 163, 1, 0.3));
+}
+.stories-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.story-con {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0rem;
+    gap: 1.25rem;
+}
+.m-story, .s-story {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+}
+.m-img, .s-img {
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.btn-3-m {
+    position: relative;
+    bottom: 2rem;
+    right: 10.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 1rem 1.25rem;
+    border: none;
+    border-radius: 3rem;
+}
+.m-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: .75rem 3rem 2.5rem;
+    text-align: left;
+}
+.m-des {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+    padding: 0rem 2.5rem 2.25rem;
+    text-align: left;
+}
+.s-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    width: 150%;
+}
+.btn-3-s {
+    position: relative;
+    bottom: 2rem;
+    right: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 1rem 1.25rem;
+    border: none;
+    border-radius: 3rem;
+}
+.s-title {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0rem 2.25rem 1.75rem;
+    text-align: left;
+}
+.view {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: black;
+    padding: .625rem 3.75rem;
+    border-radius: 12px;
+}
 
 @media screen and (max-width: 768px) {
     .link-1, .btn-pri, .logo-des {
@@ -246,6 +327,36 @@
     }
     .btn-sec {
         display: none;
+    }
+    .stories {
+        padding: 2.5rem 1rem;
+    }
+    .stories-title {
+        font-size: 2rem;
+    }
+    .story-con {
+        padding: 1.25rem 0rem;
+    }
+    .m-story {
+        display: none;
+    }
+    .s-stories {
+        width: 100%;
+        gap: .625rem;
+    }
+    .btn-3-s {
+        bottom: 1rem;
+        right: .75rem;
+        font-size: .625rem;
+        padding: .3125rem .625rem;
+    }
+    .s-title {
+        font-size: .625rem;
+        padding: .3125rem 1.5rem 1rem;
+    }
+    .view {
+        font-size: 1rem;
+        padding: .625rem 2.25rem;
     }
 
 }
