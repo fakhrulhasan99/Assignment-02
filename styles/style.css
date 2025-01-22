@@ -252,10 +252,13 @@
 /* footer styles */
 footer {
     background-color: #01ACFD;
+}
+.footer-1 {
+    
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
-    padding: 7.5rem 14.25rem 11rem 8.75rem;
+    padding: 7.5rem 14.25rem 10rem 8.75rem;
 }
 .edu {
     max-width: 50%;
@@ -296,7 +299,26 @@ footer {
 .link-pic {
     padding-right: .625rem;
 }
-
+/* marquee styles */
+.marquee {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+.marquee span {
+    display: inline-block;
+    animation: scroll 30s linear infinite;
+}
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 
 @media screen and (max-width: 768px) {
     .link-1, .btn-pri, .logo-des {
@@ -406,7 +428,7 @@ footer {
         font-size: 1rem;
         padding: .625rem 2.25rem;
     }
-    footer {
+    .footer-1 {
         flex-direction: column;
         padding: 3.75rem 1.25rem;
     }
