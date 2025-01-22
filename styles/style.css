@@ -249,6 +249,54 @@
     padding: .625rem 3.75rem;
     border-radius: 12px;
 }
+/* footer styles */
+footer {
+    background-color: #01ACFD;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5rem 14.25rem 11rem 8.75rem;
+}
+.edu {
+    max-width: 50%;
+}
+.edu-logo {
+    display: flex;
+    align-items: center;
+}
+.logo-pic {
+    height: 5rem;
+    width: 5rem;
+}
+.logo-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: .625rem;
+}
+.logo-para {
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 2.25rem;
+}
+.ab-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.ab {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 1.25rem;
+}
+.link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.link-pic {
+    padding-right: .625rem;
+}
+
 
 @media screen and (max-width: 768px) {
     .link-1, .btn-pri, .logo-des {
@@ -357,6 +405,16 @@
     .view {
         font-size: 1rem;
         padding: .625rem 2.25rem;
+    }
+    footer {
+        flex-direction: column;
+        padding: 3.75rem 1.25rem;
+    }
+    .edu {
+        max-width: 100%;
+    }
+    .about {
+        padding: 2rem 0rem;
     }
 
 }
